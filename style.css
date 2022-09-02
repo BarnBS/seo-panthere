@@ -667,13 +667,17 @@ a {
 }
 
 .statement-bloc-text {
-    line-height: 26px;
+    line-height: 20px;
     font-style: italic;
     font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
+    font-weight: 500;
     max-width: 520px;
     margin: auto auto auto auto;
+}
+
+.statement-bloc-text span{
+    font-style: normal;
+    color:grey;
 }
 
 p {
@@ -1039,4 +1043,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+#bloc-5-cta h2{
+    position:relative;
 }
