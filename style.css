@@ -532,7 +532,7 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display:block;
     text-align: center;
 }
 
@@ -1047,4 +1047,15 @@ h4 {
 
 #bloc-5-cta h2{
     position:relative;
+}
+
+#bloc-4-portfolio img{
+    width:270px;
+    height: 270px;
+}
+
+#bloc-4-portfolio a{
+    width:270px;
+    margin-left: auto;
+    margin-right: auto;
 }
