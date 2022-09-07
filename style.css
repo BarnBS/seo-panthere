@@ -719,7 +719,18 @@ p {
 
 .social {
     max-width: 400px;
-    margin: 20px auto 20px auto;
+    margin: auto auto auto auto;
+}
+
+.social-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon span{
+    margin-top: 0px;
 }
 
 h2 {
