@@ -515,6 +515,9 @@ button {
 }
 
 .scrollToTop {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
     width: 40px;
     height: 40px;
     position: fixed;
