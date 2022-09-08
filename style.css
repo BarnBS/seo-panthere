@@ -581,9 +581,12 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    width: 270px;
-    height: 270px;
     margin: 0 auto;
+}
+
+.modal-dialog img{
+    max-width: 270px;
+    max-height: 270px;
 }
 
 .lightbox-caption {
@@ -779,6 +782,11 @@ h4 {
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+}
+
+.black-background {
+    background-color: rgba(165, 147, 99, 0.7);
+    padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
